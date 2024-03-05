@@ -1,0 +1,19 @@
+a.active_class{
+    color:white;
+    border-bottom: 2px solid red;
+}
+
+a{
+    color: cyan;
+    text-decoration: none;
+    font-size: x-large;
+}
+
+
+.nav_style{
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0px;
+}

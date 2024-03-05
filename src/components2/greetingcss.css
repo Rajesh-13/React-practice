@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+
+.greet{
+    width:100%;
+    height: 100vh;
+    padding:15px;
+    background-color: white;
+    /* background-image: url('istockphoto-854130274-612x612.jpg'); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#tag{
+    /* background-color: lightcoral; */
+    padding: 30px;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 50px;
+    font-family: 'Courgette', cursive;
+    /* text-shadow: 1px 1px 15px white; */
+}
+.morning{
+    background-image: url('./greeting/morning.jpg');
+}
+
+.afternoon{
+    background-image: url('./greeting/afternoon.jpg') ;
+}
+.evening{
+    background-image: url('./greeting/evening.jpg');
+}
+.night{
+    background-image: url('./greeting/night.jpg');
+}
+

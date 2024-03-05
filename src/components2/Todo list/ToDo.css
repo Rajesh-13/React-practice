@@ -1,0 +1,102 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+h2{
+    color: rgb(76, 255, 32);
+}
+
+.main_div{
+    width: 100%;
+    /* ----------------------TO INCREASE THE SIZE DYNAMICALLY */
+    min-height:100vh;                    
+    /* ---------------------- */
+    background: rgb(224, 224, 224);
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    /* background-color: rgb(76, 255, 32); */
+    background-image: radial-gradient(circle, white,rgb(76, 255, 32) , green);
+
+}
+
+
+.center_div{
+    width: 350px;
+    background: white;
+    /* min-height: 50vh; */
+
+    box-shadow: 1px 1px 25px -5px black;
+    margin-top:5%;
+    border-radius: 5px;
+    margin-bottom: 5%;
+}
+
+
+
+ul{
+    list-style: none;
+}
+
+
+#mbtn{
+
+    width: 35px;
+    height: 35px;
+    /* width: auto; */
+    border-radius: 50%;
+    color: rgb(89, 252, 89);
+    background-color: whitesmoke;
+    box-shadow: 5px 5px 15px -6px rgba(0, 133, 0, 0.507);
+    padding: 5px;
+}
+
+#mbtn:hover{
+    background-color: rgb(89, 252, 89);
+    color: white;
+
+}
+
+#mbtn:active{
+    box-shadow: inset 0px 0px 15px 1px rgba(0,0,0,0.3);
+    background-color: rgb(89, 252, 89);
+    color: white;
+
+
+
+}
+
+
+
+input{
+    outline-style: none;
+    border: white;
+    border-bottom:3px solid rgb(89, 252, 89);
+    border-radius: 5px;
+
+}
+
+
+
+
+
+#deletebtn{
+    height: 30px;
+    width: 30px;
+    margin:3px 15px 0px 0px ;
+    background-color: rgb(76, 255, 32);
+    border-radius: 50%;
+    /* padding: 5px; */
+    color: white;
+    padding: 3px;
+    box-shadow: 2px 2px 15px -5px black;
+}
+
+#deletebtn:hover{
+    color: rgb(230, 66, 66);
+    background-color: white;
+    box-shadow: 2px 2px 15px -5px black;
+    
+}

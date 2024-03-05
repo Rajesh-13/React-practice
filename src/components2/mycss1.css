@@ -1,0 +1,30 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+.heading{
+    font-family: 'Dancing Script', cursive;
+    color: black;
+    font-weight: bolder;
+    font-size: 35px;
+    text-transform: capitalize;
+    margin: auto;
+    padding:5px;
+    text-shadow: 2px 2px 5px hotpink;
+}
+
+.image_div{
+    /* height: 300px;
+    width: 150px;  */
+    margin:auto;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.image{
+    padding: 5px;
+}
